@@ -1,7 +1,6 @@
 # 📌 Convertidor de Excel a JSON + API de Usuarios
 
 Este proyecto incluye:
-- Un script en Node.js para convertir un archivo **Excel** con datos de clientes a un **JSON** listo para usarse en pruebas con **Cypress**.
 - Una **API REST** simple para gestionar usuarios (CRUD), almacenados en un archivo JSON.
 - Ejemplos de pruebas con **Postman**.
 
@@ -10,9 +9,7 @@ Este proyecto incluye:
 ## 🚀 Tecnologías utilizadas
 - Node.js
 - Express.js
-- XLSX (para leer archivos Excel)
 - Nodemon (para desarrollo)
-- Cypress (para pruebas automatizadas)
 
 ---
 
@@ -48,3 +45,20 @@ npm run dev
 | PUT    | `/usuarios/:id` | Actualiza un usuario     |
 | DELETE | `/usuarios/:id` | Elimina un usuario       |
 
+
+## 🧪 Ejemplos en Postman
+
+### 📍 Crear usuario
+![Crear usuario en Postman](./docs/postman-crear.png)
+
+### 📍 Obtener usuarios
+![Obtener usuarios en Postman](./docs/postman-listar.png)
+
+### 📍 Obtener usuario por ID
+![Obtener usuarios en Postman](./docs/postman-listar-por-Id.png)
+
+### 📍 Actualizar usuario
+![Actualizar usuario en Postman](./docs/postman-actualizar.png)
+
+### 📍 Eliminar usuario
+![Eliminar usuario en Postman](./docs/postman-eliminar.png)
