@@ -1,4 +1,4 @@
-# 📌 Convertidor de Excel a JSON + API de Usuarios
+# 📌 API de Usuarios
 
 Este proyecto incluye:
 - Una **API REST** simple para gestionar usuarios (CRUD), almacenados en un archivo JSON.
